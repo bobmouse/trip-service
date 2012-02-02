@@ -1,9 +1,6 @@
 package go.tripservice.server.model.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 /**
  * User: bobmouse
@@ -17,6 +14,7 @@ public class TestEntity {
     private Long id;
 
     @Id
+    @GeneratedValue
     @Column(name = "ID")
     public Long getId() {
         return id;
