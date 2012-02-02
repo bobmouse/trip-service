@@ -1,11 +1,10 @@
 package go.tripservice.server.model.entity;
 
 /**
- * Created by IntelliJ IDEA.
- * User: gordeev
+ * User: bobmouse
  * Date: 01.02.12
  * Time: 18:08
- * To change this template use File | Settings | File Templates.
+ * This is the test entity
  */
 public class TestEntity {
 }
