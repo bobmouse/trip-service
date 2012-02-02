@@ -10,6 +10,6 @@
         </property>
     </bean>
 
-    <import resource="/WEB-INF/conf/database.xml"/>
+    <import resource="conf/database.xml"/>
 
 </beans>
