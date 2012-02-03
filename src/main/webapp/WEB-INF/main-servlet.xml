@@ -9,6 +9,7 @@
     </bean>
 
     <bean class="go.tripservice.server.web.controller.TestController">
+        <property name="testDAO" ref="testDAO"/>
     </bean>
 
 </beans>

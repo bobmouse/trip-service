@@ -11,5 +11,6 @@
     </bean>
 
     <import resource="conf/database.xml"/>
+    <import resource="conf/dao.xml"/>
 
 </beans>
